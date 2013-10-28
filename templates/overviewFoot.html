@@ -1,0 +1,27 @@
+</div>
+<p>
+  <canvas width="100%" height="2px"></canvas>
+</p>
+<!-- +++++ FOOT ++++++  -->
+    <div id="{{Ids.lfoot}}">
+    </div>
+    <div id="{{Ids.cfoot}}">
+      <div id="{{Ids.dialog}}"></div>  
+    </div>
+    <div id="{{Ids.rfoot}}">
+      <!-- +++++ AUDIO ++++++  -->
+      <audio id="{{Ids.soundHandle}}" volume="1.0">
+      </audio>
+    </div>
+</div> 
+<script>
+  $(function() {
+  $( "#{{Ids.content}}" ).accordion({
+  collapsible: true,
+  active: false,
+        });
+  });
+</script>
+
+</body>
+</html>

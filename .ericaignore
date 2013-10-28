@@ -1,0 +1,21 @@
+[
+  "^js/.*",
+  "^css/.*",
+  "^js/.*",
+  "^img/.*",
+  "^tmp/.*",
+  "^docs/.*",
+  "^bin/.*",
+  "^[^_attachments/].*\.zip",
+  "^[^_attachments/].*\.tar.gz",
+  "^[^_attachments/].*\.tgz",
+  "^[^_attachments/].*\.pdf",
+  "^[^_attachments/].*\.xlsx",
+  "^[^_attachments/].*\.png",
+  "^[^_attachments/].*\.jpg",
+  "^[^_attachments/].*\.gif",
+  "^[^_attachments/].*\.html",
+  "^[^_attachments/].*\.css",
+  ".*\.~*~",
+  "NOTIZEN*"
+]
