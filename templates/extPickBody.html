@@ -1,16 +1,42 @@
 <!--
--->
 <p>
   <h2>{{Standard}}-{{Sign}}-{{Type}}-{{Year}}</h2>
   <ul>
     {{#so}}
     <li>
-      <a href="../../../../{{_id}}/{{filename}}" target="_blank">{{filename}}</a>
-      {{length}} {{content_type}}
+      <span><a title="length:{{length}} content type:{{content_type}}"
+	       class="screenshot" rel="../../{{_id}}/{{filename}}"
+	       href="../../{{_id}}/{{filename}}" 
+	       target="_blank"><b>{{filename}}</b></a>
+      </span>
     </li>
     {{/so}}
-</ul>
+  </ul>
 </p> 
 
+-->
+<p>
+  <h2>{{Standard}}-{{Sign}}-{{Type}}-{{Year}}</h2>
+  <h3>XlsX</h3>
+  {{#soXls}}
+  <p>
+    <a title="length:{{length}} content type:{{content_type}}"
+       href="../../{{_id}}/{{filename}}" 
+       target="_blank"><b>{{filename}}</b>
+    </a>
+  </p>
+  {{/soXls}}
+  
+  <h3>png</h3>
+  {{#soPng}}
+
+    <img 
+       title="length:{{length}} content type:{{content_type}}"
+       src="../../{{_id}}/{{filename}}" 
+       style="width: 200px; height: 200px;" 
+       </img>
+
+  {{/soPng}}
+</p>
 
   
