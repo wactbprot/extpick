@@ -1,23 +1,8 @@
-<!--
-<p>
-  <h2>{{Standard}}-{{Sign}}-{{Type}}-{{Year}}</h2>
-  <ul>
-    {{#so}}
-    <li>
-      <span><a title="length:{{length}} content type:{{content_type}}"
-	       class="screenshot" rel="../../{{_id}}/{{filename}}"
-	       href="../../{{_id}}/{{filename}}" 
-	       target="_blank"><b>{{filename}}</b></a>
-      </span>
-    </li>
-    {{/so}}
-  </ul>
-</p> 
 
--->
 <p>
-  <h2>{{Standard}}-{{Sign}}-{{Type}}-{{Year}}</h2>
-  <h3>XlsX</h3>
+  <h2>{{Standard}} {{Sign}} {{Type}} {{Year}}</h2>
+  <hr style="color:#333333;">
+  <h3>xls&html</h3>
   {{#soXls}}
   <p>
     <a title="length:{{length}} content type:{{content_type}}"
@@ -31,9 +16,9 @@
   {{#soPng}}
 
     <img 
-       title="length:{{length}} content type:{{content_type}}"
+       title="{{filename}}  length:{{length}} content type:{{content_type}}"
        src="../../{{_id}}/{{filename}}" 
-       style="width: 200px; height: 200px;" 
+       style="width: 250px; height: 250px;" 
        </img>
 
   {{/soPng}}
