@@ -31,5 +31,5 @@ var ViewModel = function(_standard, _type, _year, _sign) {
   
 };
  
-ko.applyBindings(new ViewModel("CE3", "VG", "2013", ""));
+ko.applyBindings(new ViewModel("CE3", "KK", "2013", ""));
 
